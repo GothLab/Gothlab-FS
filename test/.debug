@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionList>
+    <Extension Id="com.gothlab.github.io.FontShaper">
+        <HostList>
+            <Host Name="AEFT" Port="8001"/>
+             <Host Name="PHXS" Port="8001"/>
+              <Host Name="PHSP" Port="8001"/>
+               <Host Name="ILST" Port="8001"/>
+
+        </HostList>
+    </Extension>
+</ExtensionList>
+
+
+    

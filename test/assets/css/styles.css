@@ -1,0 +1,86 @@
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: var(--bs-nav-tabs-link-active-color);
+  background-color: #353535;
+  border: none;
+  border-radius: 0;
+  /*border-color: var(--bs-nav-tabs-link-active-border-color);*/
+}
+
+.nav-link {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: var(--bs-nav-link-font-weight);
+  color: var(--bs-gray-700);
+  text-decoration: none;
+  border-right: 1px solid rgba(73,80,87,0.29)!important;
+  background: 0 0;
+  border-radius: 0!important;
+  /*border: 0;*/
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+#googleApi {
+}
+
+#settings_form .form-label input {
+  margin-left: 16px;
+}
+
+div {
+}
+
+#tempProjectPath, #tempDocumentsPath, #tempDesktopPath, #tempCustomPath {
+  cursor: pointer;
+}
+
+#lineH .active {
+  background: #505050!important;
+}
+
+.active2 {
+  background: #505050!important;
+}
+
+.active3 {
+  background: #505050!important;
+}
+
+.active4 {
+  background: #505050!important;
+}
+
+.nav {
+  --bs-nav-link-padding-x: 1rem;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-color: var(--bs-secondary-text-emphasis);
+  --bs-nav-link-hover-color: var(--bs-secondary-text-emphasis);
+  --bs-nav-link-disabled-color: var(--bs-secondary-color);
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.nav-link:focus, .nav-link:active {
+  outline: 0!important;
+  box-shadow: none!important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.nav-item:focus, .nav-item:active {
+  outline: 0!important;
+  box-shadow: none!important;
+}
+
+.nav-tabs .nav-link {
+  margin-bottom: calc(-1 * var(--bs-nav-tabs-border-width));
+  border: none!important;
+  outline: none !important;
+  box-shadow: none !important;
+  border-top-left-radius: var(--bs-nav-tabs-border-radius);
+  border-top-right-radius: var(--bs-nav-tabs-border-radius);
+}
+
